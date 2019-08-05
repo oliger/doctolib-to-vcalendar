@@ -18,7 +18,7 @@ const fetchAppointments = token => {
         Cookie: `auth_token=${token}`
       }
     })
-    .then(r => r.data.data.confirmed);
+    .then(r => [...r.data.data.confirmed, ...r.data.data.done]);
 };
 
 const toVCalendar = appointments => {
