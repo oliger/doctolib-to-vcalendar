@@ -1,0 +1,12 @@
+{
+  "name": "doctolib-to-vcalendar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "10.16.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
